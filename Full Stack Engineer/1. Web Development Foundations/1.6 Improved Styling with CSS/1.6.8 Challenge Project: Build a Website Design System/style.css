@@ -1,0 +1,200 @@
+html {
+    display: block;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+}
+
+header {
+    display: block;
+    text-align: center;
+}
+
+h1 {
+   font-size: 2em;
+   font-weight: bold;
+}
+
+.top {
+    display: inline;
+    margin: 0 10px;
+}
+
+.top a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.top a:hover {
+    color: rgb(239, 9, 9);
+}
+
+/*COLORS*/
+
+#colors {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#fonts {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#styles {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+div {
+    display: block;
+}
+
+.colors-container {
+    width: 100%;
+}
+
+.panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.blue {
+    background-color: #2d5dcc;
+    color: #ffffff;
+}
+
+.pink {
+    background-color: #d957d9;
+    color: #000000;
+}
+
+.green {
+    background-color: #4fe0b0;
+    color: #000000;
+}
+
+.beige {
+    background-color: #efd9ca;
+    color: #000000;
+}
+
+/*FONTS*/
+
+.font-container {
+    width: 100%;
+}
+
+.fonts-panel {
+    width: 49%;
+    display: inline-block;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans', monospace;
+}
+
+.poppins {
+    font-family: 'Poppins', monospace;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*TEXT STYLES*/
+
+.styles-container {
+    width: 100%;
+}
+
+.styles-panel {
+    display: block;
+}
+
+/*H1*/
+
+.style-h1 h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.style-h1 ul {
+    display: block;
+    list-style-type: disc;
+}
+
+.style-h1 li {
+    display: list-item;
+    text-align: match-parent;
+}
+
+/*H2*/
+
+.style-h2 h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', monospace;
+}
+
+.style-h2 ul {
+    display: block;
+    list-style-type: disc;
+}
+
+.style-h2 li {
+    display: list-item;
+    text-align: match-parent;
+}
+
+/*p*/
+
+.style-p h2 {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', monospace;
+}
+
+.style-p ul {
+    display: block;
+    list-style-type: disc;
+}
+
+.style-p li {
+    display: list-item;
+    text-align: match-parent;
+}

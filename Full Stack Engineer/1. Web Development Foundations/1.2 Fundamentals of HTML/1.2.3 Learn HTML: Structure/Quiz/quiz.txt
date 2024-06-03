@@ -1,0 +1,85 @@
+The following HTML code should only exist within which of the following tags?
+
+<title>Codecademy</title> 
+
+    <head>
+
+        The purpose of this tag is to encapsulate the metadata of a page. such as its title. 
+
+---
+
+Which of the following elements contains a web page’s metadata?
+
+    <head>
+
+        This tag contains all of hte web page's meta data. 
+
+---
+
+Why should the document type declaration be included in all HTML documents?
+
+    To specify the HTML standard being used in the content. 
+
+---
+
+All HTML code must be nested within which of the following tags?
+
+    <html>
+
+---
+
+The contents of the <title> tag will appear where in a modern browser?
+
+    The browser's tab
+
+---
+
+Which of the following would create a link to a local HTML file called aboutme.html?
+
+    <a href="./aboutme.html">ABout Me</a>
+
+        This is the proper syntax to link to a relative file. 
+
+---
+
+The following code is supposed to create a link to another web page, but fails to do so. Why?
+
+<a>Codecademy</a> 
+
+    The <a> element i smissing hte href attribute set to the URL of the Codecademy website. 
+
+---
+
+Which of the following is the current HTML standard?
+
+    HTML5
+
+---
+
+What is the purpose of indentation and whitespace?
+
+    To make code in an HTML file more readable. 
+
+---
+
+The following code creates a link to another page. Which of the following will cause the page to open in a new browser window?
+
+<a href="https://www.codecademy.com/">Codecademy</a>
+
+    Add the target attrivute, with its value set to _blank. 
+
+        The _blank value will trigger a new window when the link is clicked. 
+
+---
+
+Which of the following is the correct syntax for a comment in HTML?
+
+    <!-- No, pretty sure I'm a comment -->
+
+---
+
+Which of the following tags instructs the browser to expect a well-formed HTML document?
+
+    <!DOCTYPE html>
+
+        The doctype declaration indicates to the browser to expect well-formed HTML content. 

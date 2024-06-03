@@ -1,0 +1,122 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    height: 69px;
+    width: 100%;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+#mission {
+    background-image: url('./Images/mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mission-text {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+.featured-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-panel img {
+    height: 200px; 
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.location-banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto; 
+    padding-top: 85px;
+    background-image: url('./Images/locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.location-title {
+    font-weight: bold;
+}
+
+.location-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-panel {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.contact {
+    height: 200px;
+    align-content: center;
+}
+
+footer {
+    display: block;
+    float: left;
+    padding-left: 20px;
+    font-size: 20px;
+}

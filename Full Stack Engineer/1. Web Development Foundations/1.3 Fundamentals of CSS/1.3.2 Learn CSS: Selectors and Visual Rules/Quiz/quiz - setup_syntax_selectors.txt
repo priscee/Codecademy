@@ -1,0 +1,113 @@
+The following code attempts to style a paragraph using the <style> tag, but fails to do so. Why?
+
+<head>
+  <style>
+    <p style="color:red;">I'm learning to code!</p>
+  </style>
+</head>
+
+    The contents of the <style> tag must be CSS code, not HTML code. The <p> will not appear at all. 
+
+---
+
+What is the most specific selector in the code below?
+
+Code
+p {
+  
+}
+
+#side-bar {
+  
+}
+
+.main-content {
+
+}
+
+.main-content p {
+
+}
+
+    #side-bar
+
+        ID selectors with # are more specific than any selector only using element type and/or class selectors. 
+
+---
+
+What is the main difference between inline styles and the <style> tag?
+
+    Inline styles directly modify individual HTML elements using a style attribute, whereas the <style> tag allows you to write CSS in a dedicated section of the HTML.
+
+---
+
+What is the purpose of the HTML <link> tag when it comes to styling a page?
+
+    To link a specific stylesheet file to an HTML file so that the styles get applied on the page. 
+
+        <link> is used to cnnect stylesheets to HTML files. 
+
+---
+
+What is the correct syntax to style multiple unrelated selectors?
+
+    .nav-menu, 
+    p {
+
+    }
+
+        Using a comma allows you to apply a style ruleset to multiple selectors. 
+
+---
+
+Complete the code below to link a CSS file called main.css to an HTML file.
+
+    <link href='main.css' rel='stylesheet'>
+
+---
+
+What does the <style> HTML tag allow>
+
+    Writing one or more CSS rules in CSS syntax inside an HTML file. 
+
+        Code inside <style> tags is written in CSS syntac and can include many selectors and rulesets. 
+
+---
+
+Separating HTML and CSS into their own files helps accomplish which of the following?
+
+    Separating HTML structure from CSS style makes the code in both languages easier to read and maintain
+
+---
+
+The following HTML code attempts to use inline styling to change the color of the paragraph text, but fails to do so. Why?
+
+<p color="red;">I am learning to code!</p>
+
+    The color attribute is invalid. It should be changed to style and then set equal to color: red;: <p style="color:red;">.
+
+        The style attribute is used to add inline styles to HTML elements. 
+
+---
+
+What is the correct syntax to select an element inside another element?
+
+    .main-lists li {
+
+    }
+
+        Using a space between selectors selects elements of the second selector nested inside the first. 
+
+---
+
+Which of the following best describes the concept of CSS selector specificity?
+
+    Specificity refers to how a browser decides which styles to display when there are multiple styles defined that could apply to the same element. 
+
+---
+
+Which of the following statements is correct?
+
+    IDs are more specific than classes and tags. 
+
+        IDs are the most specific, because they should only be used on a single element. 

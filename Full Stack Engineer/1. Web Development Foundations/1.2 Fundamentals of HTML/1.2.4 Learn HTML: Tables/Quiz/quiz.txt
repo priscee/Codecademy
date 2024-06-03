@@ -1,0 +1,66 @@
+Which of the following tags is used to enclose the row of a table containing its headers?
+
+    <thead></thead>
+
+        The table headings are contained inside of the <thead> element.
+
+---
+
+Which of the following tags is used to separate the footer of the table from its body?
+
+    <tfoot></tfoot>
+
+        Add a table footer at the bottom of the table using the <tfoot> element. 
+
+---
+
+Which tag should surround an entire table of data?
+
+    <table></table>
+
+        The <table> element will contain all of hte tabular data you plan on displaying. 
+
+---
+
+Which tag adds new data to an HTML table?
+
+    <td></td>
+
+        Thie is the tag used to add data to a table. 
+
+---
+
+Which tag creates new rows in an HTML table?
+
+    <tr></tr>
+
+        You can add rows using the table row element <tr>.
+
+---
+
+What does the following code do?
+
+<tr>
+    <td colspan="2">Out of Town</td>
+    <td>Back in Town</td>
+</tr>
+
+    It creates a cell that will span two columns and a cell that will span a single column.
+
+        Out of Town will span two columns. Back in Town will span one.
+
+---
+
+Which of the following tags is used to separate the body of the table from its headers and footers?
+
+    <tbody></tbody>
+
+        The table body content are contained inside of the <tbody> element.
+
+---
+
+Which tag adds a new row header to an HTML table?
+
+    <th scope="row"></th>
+
+        The scope attribute takes the value of "row" makes it clear that the heading is for a row.

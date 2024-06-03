@@ -1,0 +1,31 @@
+Another implementation of the padding property lets you specify exactly how much padding there should be on each side of the content in a single declaration. A declaration that uses multiple properties as values is known as a shorthand property.
+
+Padding shorthand lets you specify all of the padding properties as values on a single line:
+
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
+
+You can specify these properties in a few different ways:
+
+4 Values
+    p.content-header {
+    padding: 6px 11px 4px 9px;
+    }
+
+In the example above, the four values 6px 11px 4px 9px correspond to the amount of padding on each side, in a clockwise rotation. In order, it specifies the padding-top value (6px), the padding-right value (11px), the padding-bottom value (4px), and the padding-left value (9px) of the content.
+
+3 Values
+    p.content-header {
+    padding: 5px 10px 20px;
+    }
+
+If the left and right sides of the content can be equal, the padding shorthand property allows for 3 values to be specified. The first value sets the padding-top value (5px), the second value sets the padding-left and padding-right values (10px), and the third value sets the padding-bottom value (20px).
+
+2 Values
+    p.content-header {
+    padding: 5px 10px;
+    }
+
+And finally, if the top and bottom sides can be equal, and the left and right sides can be equal, you can specify 2 values. The first value sets the padding-top and padding-bottom values (5px), and the second value sets the padding-left and padding-right values (10px).

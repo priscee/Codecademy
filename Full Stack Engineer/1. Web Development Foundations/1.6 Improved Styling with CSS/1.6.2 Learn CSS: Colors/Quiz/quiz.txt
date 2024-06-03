@@ -1,0 +1,63 @@
+What does the fourth value inside rgba() control?
+
+body {
+  background-color: rgba(212, 34, 99, 0.75);
+}
+
+    Opacity, or alpha value. 
+
+---
+
+How could this code be re-written but guarantee the same appearance in the browser?
+
+body h1 {
+  color: #BB44FF;
+}
+
+    body h1 {
+        color: #B4F;
+    }
+
+        Hex values with doulbed digits for each color value can be shortened to three characters. 
+
+---
+
+What is one limitation of named CSS colors that hexadecimal and RGB colors do not have?
+
+    Named CSS colors are limited to a specific set and cannot represent the full color palette. 
+
+---
+
+The following CSS code attempts to set the color of a paragraph using an HSL color, but fails to do so. Why?
+
+p {
+  color: hsl(65, -5, -4);
+}
+
+    The saturation and lightness value must be positive pecentages. 
+
+---
+
+Which of the following two CSS properties are used to set an HTML element’s foreground color and background color, respectively?
+
+    color and background-color
+
+---
+
+The following CSS code attempts to set the color of a paragraph using an RGB color, but fails to do so. Why?
+
+p {
+  color: rgb(277, 56, FF);
+}
+
+    The three parameters of the rbg() property must by numbers between 0 and 255. 
+
+---
+
+The following CSS code attempts to set the text color of a paragraph using a named color, but fails to do so. Why?
+
+p {
+  color: bold;
+}
+
+    bold is not a valid color keyword in CSS.

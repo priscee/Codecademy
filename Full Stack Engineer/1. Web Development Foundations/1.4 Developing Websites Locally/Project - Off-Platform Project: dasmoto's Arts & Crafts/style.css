@@ -1,0 +1,72 @@
+html, body {
+    margin: 10;
+    padding: 0;
+  }
+
+.pattern {
+    height: 150px;
+    background-image: url("./pattern.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 60px;
+    max-width: 100%;
+    height: auto;
+}
+
+.pattern h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    padding: 20px;
+}
+
+.brushes h2 {
+    background-color: mediumspringgreen;
+    width: 100%;
+    margin: 0;
+	padding: 0;
+    margin: 10px auto;
+}
+
+.frames h2 {
+    background-color: lightcoral;
+    width: 100%;
+    margin: 0;
+	padding: 0;
+    margin: 10px auto;
+}
+
+.paint h2 {
+    background-color: skyblue;
+    width: 100%;
+    margin: 0;
+	padding: 0;
+    margin: 10px auto;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+.price {
+    color: blue;
+    font-family: Helvetica;
+    font-weight: bold;
+}

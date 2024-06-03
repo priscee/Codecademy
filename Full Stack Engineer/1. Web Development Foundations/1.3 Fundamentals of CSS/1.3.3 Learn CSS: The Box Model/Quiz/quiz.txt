@@ -1,0 +1,104 @@
+Which of the following will set the right padding to 10 pixels, bottom padding to 15 pixels, left to 20 pixels, and top padding to 25 pixels?
+
+    padding: 25px 10px 15px 20px
+
+        When four values are provided to padding(or margin), they are applied in the order: top, right, bottom, left. 
+
+---
+
+What is the name of the space between the content container and the border?
+
+    padding
+
+        Padding is the space between content and border. 
+
+---
+
+Which property should fill the blank in the following CSS code snippet?
+
+div.teams {
+  ______: 2px solid red;
+}
+
+    border
+
+        Border shorthand syntax lets you set a width, style, and color in one line. 
+
+---
+
+What property affects the space between the border of an element and its surrounding elements?
+
+    Margin
+
+---
+
+Which of the following is not part of the CSS box model?
+
+    div
+
+---
+
+Which of the following will set the vertical padding to 20 pixels and horizontal padding to 40 pixels?
+
+    padding: 20px 40px
+
+        When padding is provided two values, the first controls vertical padding and the second controls horizontal padding. 
+
+---
+
+Which of the following CSS properties controls the size of an element’s content?
+
+    height and width
+
+---
+
+Which of the following will set the top and bottom margins to 15 pixels and left and right margins to 30 pixels?
+
+    margin: 15px 30px
+
+---
+
+Which of the following properties controls how to display content that is too large for its container?
+
+    overflow
+
+---
+
+In the sample code below, the element with ID “one” is directly above the element with ID “two” in the HTML document. How much space is between the border of element #one and the border of element #two?
+
+#one {
+  margin: 20px;
+}
+
+#two {
+  margin: 30px;
+}
+
+    30px
+
+        The vertical margins of these two elements will not add together but will collapse to the larger value of the two, 30 pixels. 
+
+---
+
+Assuming the .box element below is the only element on the page, what is the total height calculated by using the given CSS properties?
+
+.box {  
+  border: 1px solid black;
+  padding: 10px;
+  height: 125px;
+}
+
+    147px
+
+        The total element height inclues the height property, the top and bottom border heights, and the top and bottom padding heights (125 +10 +10 +1 + 1)
+
+---
+
+Which of the following accurately explains the CSS code below?
+
+div.headline {
+  width: 300px;
+  margin: 0 auto;
+}
+
+    The div.headline elements will have a width of 300 pixels, a vertical margin of 0, and will be horizontally centered within their parent container. 

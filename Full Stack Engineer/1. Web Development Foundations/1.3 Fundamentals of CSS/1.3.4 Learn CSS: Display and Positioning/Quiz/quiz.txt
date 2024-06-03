@@ -1,0 +1,92 @@
+Which of the following positioning values will remove an element from the flow of the HTML document?
+
+    fixed
+
+        fixed elements will be fixed to a specific location on the screen. 
+
+---
+
+How will this rule-set affect the .card elements?
+
+.card {
+  position: relative;
+  top: 10px;
+}
+
+    Position the .card element 10 pixels lower than its default position. 
+
+        The combination of position: relative and top: 10px will result in this behavior. 
+
+---
+
+Complete the statement: An inline element . . .
+
+    does not start a new line and cannot be sized using the height and width properties. 
+
+        inline elements flow on the same line, but their dimensions can't be set with height and width.
+
+---
+
+Which of the following is the default position value?
+
+    static
+
+---
+
+What does z-index control?
+
+    How far 'back' or 'forward' overlapping elements appear on a page. 
+
+        z-index controls the relative depth of overlapping elements. 
+
+---
+
+Complete the statement: An inline-block element . . .
+
+    does not start a new line and can be sized using the height and width properties. 
+
+        inline-block elements can flow on the same line, and their dimensions can be set with height and width. 
+
+
+---
+
+How will this rule set affect the .title-card element?
+
+.title-card {
+  position: fixed;
+  top: 0px;
+}
+
+    Remove .title-card from the flow of the document and keep it in the same position within the browser window, even if the user scrolls. 
+
+        position: fixed is used to fix elements to a position on the page regardless of scrolling. 
+
+---
+
+The z-index will be ignored if an element is set to which of the following position values?
+
+    static
+
+        Default static positioned elements will ignore z-index.
+
+---
+
+Complete the statement: A block element . . .
+
+    starts a new line and can be sized using the height and width properties. 
+
+        block elements take up a block of horizontal space, and their dimensions can be set with height and width. 
+
+---
+
+Which of the following CSS properties can be used to set an element’s behavior to inline, inline-block, or block?
+
+    display
+
+        display controls the block level of an element. 
+
+---
+
+Which of the following values will position an element in relation to the nearest non-static element?
+
+    absolute

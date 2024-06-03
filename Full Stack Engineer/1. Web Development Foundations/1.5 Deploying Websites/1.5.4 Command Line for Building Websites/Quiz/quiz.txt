@@ -1,0 +1,71 @@
+What is a directory?
+
+    A folder used to store files. 
+
+---
+
+How do you print the current working directory?
+
+    pwd
+
+        pwd stands for "Print Working Directory".
+
+---
+
+How would you create a file named text.txt in your current directory?
+
+    touch text.txt
+
+        touch is the command to create files and text.txt is the name of the file. 
+
+---
+
+If the current working directory is home/media/music, which of the following commands will navigate to the home/ folder in the tree below?
+
+home/
+    media/
+        movies/
+        music/
+
+    cd ../..
+
+        ../.. moves the current working directory up two levels. 
+
+---
+
+How would you change to one directory above the current working directory?
+
+    cd ..
+
+        cd changes directories, and .. is one level up. 
+
+---
+
+If the current working directory is home/, which of the following commands will navigate to the movies/ directory in the tree below?
+
+home/
+    media/
+        movies/
+        music/
+
+    cd media/movies
+
+        cd is used to change directories. 
+
+---
+
+What is a filesystem?
+
+    It organizes a computer's files and directories into a tree structure. 
+
+        You can see filesystem represented in the Mac Finder and Windows Explorer. 
+
+---
+
+What does the following command do?
+
+touch media/popular.txt
+
+    It creates a file named popular.txt in the media directory. 
+
+        touch creates a file, media/ is the directory of the file, and popular.txt is the filename. 

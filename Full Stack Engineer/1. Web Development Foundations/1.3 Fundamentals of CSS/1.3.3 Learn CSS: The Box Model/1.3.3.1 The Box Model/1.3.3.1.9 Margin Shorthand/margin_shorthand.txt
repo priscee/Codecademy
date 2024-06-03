@@ -1,0 +1,31 @@
+What if you don’t want equal margins on all four sides of the box and don’t have time to separate properties for each side? You’re in luck! Margin can be written as a shorthand property as well. The shorthand syntax for margins is the same as padding, so if you’re feeling comfortable with that, skip to the instructions. Otherwise, read on to learn how to use margin shorthand!
+
+Similar to padding shorthand, margin shorthand lets you specify all of the margin properties as values on a single line:
+
+    - margin-top
+    - margin-right
+    - margin-bottom
+    - margin-left
+
+You can specify these properties in a few different ways:
+
+4 Values
+    p {
+    margin: 6px 10px 5px 12px;
+    }
+
+In the example above, the four values 6px 10px 5px 12px correspond to the thickness of the margin on each side, in a clockwise rotation. In order, it specifies the margin-top value (6px), the margin-right value (10px), the margin-bottom value (5px), and the margin-left value (12px) of the content.
+
+3 Values
+    p {
+    margin: 5px 12px 4px;
+    }
+
+If the left and right sides of the content can be equal, the margin shorthand property allows for 3 values to be specified. The first value sets the margin-top value (5px), the second value sets the margin-left and margin-right values (12px), and the third value sets the margin-bottom value (4px).
+
+2 Values
+    p {
+    margin: 20px 10px;
+    }
+
+And finally, if the top and bottom sides can be equal, and the left and right sides can be equal, you can specify 2 values. The first value sets the margin-top and margin-bottom values (20px), and the second value sets the margin-left and margin-right values (10px).

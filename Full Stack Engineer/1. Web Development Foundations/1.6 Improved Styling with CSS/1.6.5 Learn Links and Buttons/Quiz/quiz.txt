@@ -1,0 +1,39 @@
+What is the proper cascade order for pseudo-classes so that they show all link states accurately?
+
+    :link, :visited, :hover, :active
+
+---
+
+Which CSS declaration will cause the cursor to appear as a hand?
+
+    cursor: pointer;
+
+---
+
+By default, un-clicked links are styled with:
+
+    Blue text and underlines. 
+
+---
+
+Which of the following is not a property of skeuomorphic design?
+
+    Elements appear flat on screen. 
+
+---
+
+Which of the following code snippets will correctly give this link extra context in the form of a tooltip?
+
+    <a href="https://www.codecademy.com" title="The best place to learn to code!">Codecademy</a>
+
+---
+
+Which link state (pseudo-class) should be used to style links that are currently being clicked?
+
+    :active
+
+---
+
+Which of the following is NOT an aspect of (well-executed) flat design?
+
+    Elements are styled to represent real-life objects. 

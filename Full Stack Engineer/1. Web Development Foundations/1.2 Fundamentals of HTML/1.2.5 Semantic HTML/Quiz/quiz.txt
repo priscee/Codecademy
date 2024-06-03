@@ -1,0 +1,84 @@
+What’s the difference between <embed> and <video>?
+
+    <video> can only be used for video, while <embed> can be used for any type of media.
+
+        Embed can be used for files or external links such as video from a different website. 
+
+---
+
+Why is the code below incorrect?
+
+<audio src="AudioFile.mp3"/>
+
+    <audio> is not a self closing tag and requires an opening and closing tag. 
+
+        You can use src to link the audio file in the opening <audio> tag. 
+
+---
+
+Which code snippet is the correct way to rewrite this in Semantic HTML?
+
+<div id="header">
+  <h1>Codecademy</h1>
+</div>
+
+    <header><h1>Codecademy</h1></header>
+
+        <header> can contain up to <h6>
+
+---
+
+Why is the <div> tag not semantic?
+
+    It provides no context as to what the content is inside of the tag. 
+
+        This can be compared to a tag such as <footer> which is known to contain content at the bottom of the page. 
+
+---
+
+Which semantic tags complete the code?
+
+  <section>
+    <p>
+A robot is a machine designed to complete tasks faster, quicker, and more accurately than a human.
+    </p>
+  </section>
+
+    <aside>
+    <p>
+“We're going to become caretakers for the robots. That's what the next generation of work is going to be.”- Gray Scott
+    </p>
+    </aside>
+
+---
+
+Why is the code below incorrect?
+
+<figcaption>
+  <img src="sunset.jpg">
+  <figure>Beautiful sunset</figure>
+</figcaption>
+
+    The use of <figure> and <figcaption> needs to be reversed. 
+
+        <figcaption> is used to inset test related to the content in the >figure> such as description. 
+
+---
+
+Add the correct type of semantic tag:
+
+<section>
+  <h2>cars</h2>
+
+  <article>
+  <p>
+A car is so much more than a number, and yet enthusiasts and non-enthusiasts alike simply cannot resist the urge to brag or judge another’s wheels based on specifications alone.
+  </p>
+  </article>
+  
+</section>
+
+---
+
+
+

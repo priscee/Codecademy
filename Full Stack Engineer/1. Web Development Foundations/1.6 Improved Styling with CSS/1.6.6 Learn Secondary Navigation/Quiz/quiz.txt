@@ -1,0 +1,59 @@
+Which type of breadcrumb trail is the following example?
+
+... > About > Home > Login
+
+    Path-based
+
+        This shows a user's unique path through the site. 
+
+---
+
+Which of the following is not a type of breadcrumb?
+
+    URL-based
+
+        Breadcrumbs contain links to other URLs, but is not a type of breadcrumb. 
+
+---
+
+Which type of breadcrumb trail is the following example?
+
+Apple: Red  Small
+
+    Attribute-based.
+
+        This trail shows the attributes of the apple. 
+
+---
+
+What HTML elements do you use to create the breadcrumb trail?
+
+
+    An unordered list
+
+        We use ul and li tags to create the list. 
+
+---
+
+Where do most users expect to see a breadcrumb trail?
+
+    Underneath the primary navigation for the page. 
+
+        it is usually at the bottom of the header of the page, underneath the primary navigation. 
+
+---
+
+Which type of website might be best suited to avoid using breadcrumbs?
+
+    A site with only a few unique pages. 
+
+        Likely breadcrumbs would be redundant with the primary navigation here and may be distracting. 
+---
+
+Which type of breadcrumb trail is the following example?
+
+Shopping > Food > Apples
+
+    Location-based
+
+        This trail shows the location of the current page in context of the site. 

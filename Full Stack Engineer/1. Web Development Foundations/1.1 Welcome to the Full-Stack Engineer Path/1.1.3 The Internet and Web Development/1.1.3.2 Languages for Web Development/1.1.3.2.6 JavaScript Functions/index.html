@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+    <!--connect changeColor HaveScript fn with the event with click with Repaint button-->
+      <button onclick="changeColor()">Repaint!</button>
+  </body>
+    <!--JavaScript code is between the <script> tags-->
+    <!--getRandomColor : function generates a random series of numbers and lettters to create a new hexadeci color code-->
+    <!--changeColor : function chooses a color from a list of colors--> 
+    <script>
+
+
+    function getRandomColor(){
+        let letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+
+
+    function changeColor(){
+        let newColor = getRandomColor();
+        document.body.style.backgroundColor = newColor;
+    }
+    </script>
+  
+</html>

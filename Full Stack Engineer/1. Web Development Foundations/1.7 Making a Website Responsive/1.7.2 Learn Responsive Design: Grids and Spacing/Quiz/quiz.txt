@@ -1,0 +1,33 @@
+What CSS property would be considered passive whitespace?
+
+    line-height
+
+---
+
+What is another term used to describe whitespace?
+
+    Negative Space
+
+---
+
+What term is often used to describe groups of content broken into horizontal groups?
+
+    Rows
+
+---
+
+What is the most common type of grid used in web design?
+
+    Column grid
+
+---
+
+What is the correct term for the negative space between columns?
+
+    Gutters
+
+---
+
+If the width of a grid is set to a specific width, we would consider this to be a what type of grid?
+
+    Fixed

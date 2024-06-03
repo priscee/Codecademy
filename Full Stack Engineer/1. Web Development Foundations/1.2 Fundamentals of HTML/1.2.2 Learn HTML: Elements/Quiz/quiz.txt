@@ -1,0 +1,105 @@
+Which of the following is the correct syntax for the paragraph HTML element?
+
+    <p>I am a paragraph</p>
+    
+        The closing tag in this paragraph has the correct notation, with the forward slash / coming before the element name. 
+
+---
+
+What HTML code will most web browsers display as italics?
+
+    <em>Hello</em>
+
+        Correct! Text written between <em></em> tags will be italicized.
+
+---
+
+Match the blanks with the proper syntax to create an HTML paragraph element from this text.
+
+    <p>I'm ready to rock and roll!</p>
+
+---
+
+Why is the code below incorrect?
+
+<video src="myVid.mp4" controls >
+
+    The video element is not a self-closing tag. It should have an opening and a closing tag.
+
+---
+
+Which element is the parent of <p>My Paragraph</p>?
+
+<body>
+  <p>Paragraph 1</p>
+  <div>
+    <a href="http://www.codecademy.com">Codecademy</a>
+    <p>My Paragraph</p>
+  </div>
+</body>
+
+    <div>
+
+---
+
+What is the correct definition of an HTML element?
+
+    An HTML tag and the content that it contains or marks up.
+
+---
+
+Which of the following tags would contain the HTML for a web page’s visible content?
+
+    <body>
+
+        The <body> tag in HTML contains all of the page's visible content.
+
+---
+
+Which of the following elements will directly affect the vertical spacing in an HTML layout?
+
+    <br>
+
+---
+
+The following code results in no visible output to the browser. Why?
+
+<ol>
+
+</ol> 
+
+    List items must be added to the list.
+
+---
+
+Which of the following is valid HTML for the heading tag with the smallest size and lowest rank in the hierarchy?
+
+    <h6>
+
+        Correct! HTML supports headings from ranging from <h1> (biggest) to <h6> (smallest).
+
+---
+
+How would the output of the code below change if <ul> and </ul> were changed to <ol> and </ol>, respectively?
+
+<ul>
+  <li>Lorem</li>
+  <li>Ipsum</li>
+  <li>Horribilis</li>
+</ul>
+
+    Bullet points in the output would change to numbers.
+
+---
+
+The abbreviation HTML stands for which of the following?
+
+    HyperText Markup Language
+
+---
+
+The following code is supposed to display an image, but fails to do so. Why?
+
+<img https://www.example.com/laptop.jpg />
+
+    The src attribute is missing and must be set equal to the image URL, enclosed in double quotation marks. 
